@@ -4,13 +4,251 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwind Starter Template</title>
+    <title>Tailwind Mikrosite</title>
     <link rel="stylesheet" href="tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <h1 class="bg-indigo-700 text-violet-50 hover:bg-indigo-300">
-      Hello Tailwind CSS
-    </h1>
+  <body class=" bg-beige">
+    <div>
+      
+      <div class="lg:flex lg:flex-row lg:justify-center lg:bg-graa">
+      <div class="lg:max-w-2xl">
+        <img src="kobenhavnerbilleder-sten-simons.jpg" alt="" />
+      </div>
+  
+        <div class="px-6 pt-6 lg:flex lg:flex-col lg:justify-center lg:p-12"> 
+        <h1 class="mb-1 text-4xl lg:text-6xl text-blaa">
+          Københavnerbilleder 
+         <h2 class="mb-1 text-3xl lg:text-5xl text-blaa"><i>En guide til hipster foto </i></h2>
+        </h1>
+        <h2 class="lg:mb-8 lg:text-3xl text-2xl text-[#003060] ">af Sten Simons</h2>
+        
+        <button class="bg-orange min-w-full text-hvid text-xl p-2 my-4 rounded-xl
+hover:bg-orange/80 lg:min-w-0 lg:max-w-md ">KØB NU</button>
+      </div>
+      </div>
+
+      <div class="lg:flex lg:flex-row lg:justify-center lg:mt-8 lg:mb-12">
+      <div class="px-6">
+        <h2 class=" text-blaa text-xl lg:text-2xl mt-6">Stamdata for bogen</h2>
+        <ul class="text-blaa font-thin lg:leading-7">
+          <li>Titel: Københavnerbilleder - en guide til hipster foto</li>
+          <li>Forfatter: Sten Simons</li>
+          <li>Antal sider: 344</li>
+          <li>Forlag: Mellem Linjerne</li>
+          <li>ISBN: 987-6-987654-32-1</li>
+          <li>Pris: 399.-</li>
+        </ul>
+      </div>
+
+      <div class="px-6 lg:max-w-prose	">
+        <h2 class="text-blaa text-xl lg:text-2xl mt-6">Kort om bogen</h2>
+        <p class="text-blaa font-thin lg:leading-7	">
+          Københavnerbilleder er de danske streetfotografers bibel: 
+          Det er en fusion mellem et kunstværk og en lærebog. Bogen gennemgår alle
+          væsentlige aspekter af streetfotografering fra grundlæggende teknik
+          til kreative eksperimenter. Alt sammen krydret med masser af
+          inspirerende fotos. <br>
+          God læselyst!
+        </p>
+      </div>
+
+      </div>
+
+      <div class="mt-6 px-6 lg:flex lg:flex-row lg:gap-x-5 lg:justify-center ">
+        <img class="mb-6 lg:max-w-full	lg:max-h-64" src="kobenhavnerbilleder-sten-simons.jpg" alt="" />
+        <img class="mb-6 lg:max-w-full	lg:max-h-64" src="kobenhavnerbilleder_oppefra.jpg" alt="" />
+        <img class="mb-6 lg:max-w-full	lg:max-h-64" src="kobenhavnerbilleder_aaben_venstre.jpg" alt="" />
+      </div>
+
+           <h2 class="text-blaa text-xl mb-1 px-6 lg:ml-[160px] lg:text-2xl lg:mt-8">Bogens kapitler</h2>
+      <div class="px-6 lg:flex lg:flex-wrap lg:justify-center lg:gap-x-12 lg:mb-8 ">
+   
+        <div class="lg:max-w-lg	">
+      
+        <h3 class=" text-blaa">Kapitel 1 - Intro til street foto</h3>
+        <p class="lg:leading-7 text-blaa font-thin mb-4">
+          Hvad er street foto? Det handler i bund og grund om at skyde byens liv
+          og byens geometri (urban geometry). I dette kapitel får du en grundig
+          intro til hvad street foto er og et overblik over nogen af de kendte
+          street-fotografer. Alt krydret med en masse gode eksempler på street
+          fotos.
+        </p>
+        </div>
+        <div class="lg:max-w-lg">
+        <h3 class="text-blaa">Kapitel 2 - Om at skyde street</h3>
+        <p class="lg:leading-7 text-blaa font-thin mb-4 ">
+          Vil du skyde street? Så er der ikke nogen vej udenom: Du skal ud på
+          gaderne og prøve det! I dette kapitel får du en teknisk indføring i
+          hvordan du bedst skyder street. Uanset om du er begynder eller
+          professionel, er der mange gode tekniske tips og tricks til
+          street-skyderiet.
+        </p>
+        </div>
+        <div class="lg:max-w-lg	">
+        <h3 class="text-blaa">Kapitel 3 - Om at finde det rette motiv</h3>
+        <p class="lg:leading-7 text-blaa font-thin mb-4">
+          Indimellem er man heldig, andre gange kommer man hjem helt uden gode
+          motiver. Med et par tips og tricks til at finde de rette motiver,
+          stiger chancen gevaldigt for at fange de gode motiver.
+        </p>
+        </div>
+        <div class="lg:max-w-lg	">
+        <h3 class="text-blaa">Kapitel 4 - Digital street foto</h3>
+        <p class="lg:leading-7 text-blaa font-thin mb-4">
+          De fleste af os skyder oftest digitalt fordi det er billigere og
+          nemmere. Og nogen teknikker og fremgangsmåder egner sig kun til
+          digital street foto. I dette kapitel får du en række tips og tricks
+          til digital street-foto.
+        </p>
+        </div>
+        <div class="lg:max-w-lg	">
+        <h3 class="text-blaa">Kapitel 5 - Analog street foto</h3>
+        <p class=" lg:leading-7 text-blaa font-thin mb-4">
+          Analog er sejt fordi det er mere “ægte,” dyrere og mere besværligt end
+          digital. Det signalerer entusiasme. Nogle teknikker og fremgangsmåder
+          egner sig bedst til analog street foto. I dette kapitel får du en
+          række tips og tricks til analog street-foto.
+        </p>
+        </div>
+        <div class="lg:max-w-lg	">
+        <h3 class="text-blaa">Kapitel 6 - Om at skyde sort/hvid</h3>
+        <p class=" lg:leading-7 text-blaa font-thin mb-4">
+          Alle street-fotografer skyder sort/hvid nu og da. Nogen altid.
+          Hvorfor? Hvad er der specielt ved sort/hvid fotografering, og hvad
+          adskiller sort/hvid fra farvefotografering? Her får du en række tips
+          og tricks til sort/hvid fotografering.
+        </p>
+        </div>
+        <div class="lg:max-w-lg	">
+        <h3 class="text-blaa">Kapitel 7 - Kreative teknikker</h3>
+        <p class="lg:leading-7 text-blaa font-thin mb-4">
+          Dobbelteksponeringer, ICM (intentional camera moves), smadrede
+          objektiver, gamle filmruller og alle mulige andre, spændende kreative
+          teknikker kan løfte dine fotografier fra at være kedelige
+          dokumentationer af hverdagen til at blive vilde kunststykker. Så dyk
+          ned i dette kapitel om eksperimenterende teknikker!
+        </p>
+        </div>
+        <div class="lg:max-w-lg	">
+        <h3 class="text-blaa">Kapitel 8 - Kom helt tæt på!</h3>
+        <p class="lg:leading-7 text-blaa font-thin mb-6">
+          Street foto handler om at fotografere livet på gaden - men tør du at
+          gå helt tæt på fremmede mennesker og knipse løs? Du kan lige så godt
+          øve dig, for det er det der vil gøre dig til en bedre street-fotograf…
+        </p>
+        </div>
+        <div class="lg:flex lg:justify-center mt-4 	">
+        <button class="bg-orange hover:bg-orange/80 min-w-full text-hvid  p-2 my-4 mb-6 rounded-xl lg:min-w-0 lg:w-96
+">Download prøvekapitel</button>
+</div>
+      </div>
+
+      <div class="bg-graa pt-5 pb-1 mb-6 lg:pb-0 lg:mb-8">
+        <h2 class=" px-6 text-blaa text-xl mb-1 lg:ml-[162px] lg:text-2xl ">Anmeldelser af bogen</h2>
+      <div class=" px-6 lg:flex lg:flex-row lg:justify-center lg:gap-x-[55px] lg:mb-8 ">
+
+        <div class="lg:max-w-xs">
+        <h3 class="text-blaa">5 af 6 stjerner</h3>
+        <p class="lg:leading-7 text-blaa font-thin mb-4">
+          Københavnerbilleder er en grundig introduktion til at skyde billeder
+          med retro-kant. Hvad enten du er har arbejdet med foto siden
+          135-filmen kom på markedet, du kun har skudt digitalt eller er helt
+          nybegynder, er der masser af tips i bogen.<br>
+          <b>- Hanne Hovgaard, Berlingeren</b>
+          </p>
+        </p>
+        </div>
+      
+        <div class="lg:max-w-xs">
+        <h3 class="text-blaa">4 af 5 stjerner</h3>
+        <p class=" lg:leading-7 text-blaa font-thin mb-4">
+          Teksten er underholdende, og billederne er sku’ flotte. Hvad mere skal
+          man sige om en fotobog? Stens tredje
+          fotobog er klart den bedste - her er han for alvor i sit rette
+          element, meget bedre end “studiefotografering som begyndere.” 
+          <br>
+          <b>- Kim Kloggaard, Fotojournalen.dk</b>
+        </p>
+        </div>
+        
+      <div class="lg:max-w-xs">
+        <h3 class="text-blaa]">6 af 6 stjerner</h3>
+        <p class="lg:leading-7 text-blaa font-thin mb-6">
+          Sten Simons kan det der - og han bliver bedre og bedre. Stens tredje
+          fotobog er klart den bedste - her er han for alvor i sit rette
+          element, meget bedre end “studiefotografering som begyndere.” Tillykke
+          - godt arbejde.
+          <br>
+          <b>- Volmer Hansen, Lukkertiden.dk</b>
+          </div>
+          </div>
+      </div>
+
+        <h2 class="text-xl mb-2 text-blaa lg:text-2xl lg:ml-[162px] px-6">Billeder fra bogen</h2>
+
+      <div class=" px-6 lg:px-0 lg:mb-8  ">
+        <div class="lg:flex lg:flex-row lg:justify-center lg:gap-x-6">
+        <img class="mb-6 lg:mb-6 lg:max-w-full	lg:max-h-64" src="billede4.jpg" alt="" />
+        <img class="mb-6 lg:mb-6 lg:max-w-full	lg:max-h-64" src="billede3.jpg" alt="" />
+        <img class="mb-6 lg:mb-6 lg:max-w-full	lg:max-h-64" src="billede5.jpg" alt="" />
+        <img class="mb-6 lg:mb-6 lg:max-w-full	lg:max-h-64" src="billede1.jpeg" alt="" />
+        </div>
+        <div class="lg:flex lg:flex-row lg:justify-center lg:gap-x-6">
+        <img class="mb-6 lg:max-w-full	lg:max-h-64" src="billede3.jpg" alt="" />
+       <img class="mb-6 lg:max-w-full	lg:max-h-64" src="billede1.jpeg" alt="" />
+         <img class="mb-6 lg:max-w-full	lg:max-h-64" src="billede4.jpg" alt="" />
+       <img class="mb-6 lg:max-w-full	lg:max-h-64" src="billede5.jpg" alt="" />
+</div>
+        
+  
+       
+      </div>
+
+      <h2 class="text-xl text-blaa lg:text-2xl lg:ml-[160px] mb-2 px-6">Forfatteren</h2>
+      <div class=" px-6 lg:flex lg:flex-row lg:justify-center lg:gap-x-24">
+        <div>
+        <img class="lg:max-w-xs lg:mb-10" src="sten_simons.jpg" alt="" />
+        </div>
+        <div class="lg:max-w-prose">
+        <p class="text-blaa font-thin my-6 lg:leading-7 lg:mt-[100px]">
+          Sten Simons har en lang foto-karriere bag sig. Det hele startede i
+          00’erne, da han gik rundt i Pisserenden for at fotografere ungdommens
+          forfald. Det ledte til en række udstillinger, og blev senere til hans
+          først fotobog “Ungdomsdruk - pinlige billeder fra nattelivet.”
+        </p>
+        <p class="text-blaa font-thin mb-6 lg:leading-7">
+          Derefter tog karrieren fart: Han blev fotojournalist og dokumenterede
+          en masse dagligdagsstof fra Amager på dagbladet “Amagerkaneren.”
+          Sideløbende begyndte han at undervise i foto, og har skrevet et utal
+          af bøger, herunder bestsellerne Scener fra S-toget, Brun mad - en
+          visuel odysse, og lærebogen Fotografering for evnesvage.
+        </p>
+        </div>
+        
+      </div>
+
+      <div class=" px-6 bg-graa pt-10 ">
+        <div class="flex justify-center">
+        <h2 class="text-2xl lg:text-3xl text-blaa">Køb Københavnerbilleder nu!</h2>
+        </div>
+
+        <div class="lg:flex lg:justify-center mt-4 	">
+        <button class="bg-orange hover:bg-orange/80 min-w-full text-hvid text-xl p-2 my-4 mb-10 rounded-xl lg:min-w-0 lg:w-96
+">KØB NU</button>
+</div>
+
+      </div>
+  
+   
+    <footer class="p-6 bg-blaa">
+      <p class="text-hvid flex justify-center">Copyright © 2022 // Københavnerbilleder - en guide til hipster foto</p>
+    </footer>
     <script type="module" src="index.js"></script>
+  
   </body>
 </html>
